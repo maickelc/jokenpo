@@ -1,5 +1,5 @@
 
-import  Player from '../src/player'
+import  Player from '../src/data/player'
 import { jokenpo } from '../src/jokenpo'
 import { assert } from  'chai'  
 
