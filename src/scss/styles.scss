@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: -apple-system, sans-serif;
+  color: #111;
+  background-color: #8ee98e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 300;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.center { 
+    margin: 0;
+    position: absolute;
+    margin-left: 50px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 400px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
